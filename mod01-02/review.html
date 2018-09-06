@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First Exercise</title>
+</head>
+<body>
+
+	<fieldset>
+		<legend>Your details:</legend>
+		<label>Name: <input type="text" name="name"></input></label><br>
+		<label>Email: <input type="email" name="email"></input></label>
+	</fieldset>
+
+	<fieldset>
+		<legend>Your Review:</legend>
+		<label>How did you hear about us?</label>
+		<select name="medium">
+			<option value="google">Google</option>
+			<option value="facebook" selected>facebook</option>
+			<option value="instagram">Instagram   </option>
+		</select><br>
+		<label>Would you visit again?</label><br>
+		<input type="radio" name="visit"value="Yes">
+		Yes
+		<input type="radio" name="visit"value="No">
+		No
+		<input type="radio" name="visit"value="Maybe">
+		Maybe<br><br>
+
+		<label>Comments:</label><br>
+		<textarea name="comments"></textarea><br>
+
+		<input type="checkbox" name="text" value="text">
+		Sign me up for email updates<br>
+
+		<input type="submit"value="Submit review"><br>
+	</fieldset>
+
+</body>
+</html>
